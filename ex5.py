@@ -6,5 +6,6 @@ t=int(input("Enter year ammount: "))
 
 #Function Definitions
 def interest(p,r,t,n):
-    print(p((1+(r/n))(n*t)))
-print("Your new balence is: " , interest)
+    return (p((1+(r/n))(n*t)))
+#Print
+print("Your new balence is: " , interest(p,r,t,n)
