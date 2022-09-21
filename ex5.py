@@ -4,9 +4,6 @@ n=12
 r=.08
 t=float(input("Enter year ammount: "))
 
-#Function Definitions
-def interest(p,r,t,n):
-    return (p*((1+(r/n))*(n*t)))
-#Print
-result = interest
-print("Your new balence is: " , interest(p,r,t,n))
+interest = (p*((1+(r/n))*(n*t)))
+
+print(interest)
