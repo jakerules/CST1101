@@ -61,4 +61,3 @@ def grade(a1, b1, c1)
         print("Student 3 has an A!!!!")
     else:
         print("Student 3 has a B or lower...")
-        return a1, b1, c1
