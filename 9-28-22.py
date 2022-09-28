@@ -18,10 +18,9 @@ if(x>3):
     print("world!")
     print(5*2/3)
 '''
-'''
-<
->
-==
-<=
->=
-'''
+
+# <
+# >   
+# ==    #Operators for conditions
+# <=
+# >=
