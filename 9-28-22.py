@@ -48,15 +48,18 @@ if(c1 > 90):
 else:
     print("Student 3 has a B or lower...")
 
-def grade(a1, b1, c1)
+def grade(a1, b1, c1):
+#Student 1
     if(a1 > 90):
         print("Student 1 has an A!!!!")
     else:
         print("Student 1 has a B or lower...")
-    if(c1 > 90):
+#Student 2
+    if(b1 > 90):
         print("Student 2 has an A!!!!")
     else:
         print("Student 2 has a B or lower...")
+#Student 3
     if(c1 > 90):
         print("Student 3 has an A!!!!")
     else:
