@@ -48,6 +48,8 @@ if(c1 > 90):
 else:
     print("Student 3 has a B or lower...")
 
+
+#Function
 def grade(a1, b1, c1):
 #Student 1
     if(a1 > 90):
