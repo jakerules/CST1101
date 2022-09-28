@@ -46,4 +46,19 @@ else:
 if(c1 > 90):
     print("Student 3 has an A!!!!")
 else:
-    print("Student 1 has a B or lower...")
+    print("Student 3 has a B or lower...")
+
+def grade(a1, b1, c1)
+    if(a1 > 90):
+        print("Student 1 has an A!!!!")
+    else:
+        print("Student 1 has a B or lower...")
+    if(c1 > 90):
+        print("Student 2 has an A!!!!")
+    else:
+        print("Student 2 has a B or lower...")
+    if(c1 > 90):
+        print("Student 3 has an A!!!!")
+    else:
+        print("Student 3 has a B or lower...")
+        return a1, b1, c1
