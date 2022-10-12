@@ -1,8 +1,11 @@
+#Define and import
 from ex51 import get_day_name
-#Define
+import ex51
+
+day = ex51.Day
 length = int(input("What is the number of days that passed?"))
-day = (length % 7) + start
+#Calculate
+day = (length % 7) + day
 
 #print result
-
 print(get_day_name(day))
