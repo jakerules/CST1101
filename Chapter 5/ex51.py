@@ -18,5 +18,4 @@ def get_day_name(day):
     else:
         print("Not a valid number!")
 #Run Function
-
-get_day_name(day = int(input("Input value: ")))
+get_day_name(day = int(input("Current day: ")))
