@@ -1,5 +1,5 @@
 #Define and set variable
-day=int(input("Input value: "))
+day = int(input("Input value: "))
 
 #Find and print day
 if day == 0:
