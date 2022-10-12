@@ -1,6 +1,5 @@
 #Define and set variable
 def get_day_name(day):
-
 #Find and print day
     if day == 0:
         print("Sunday")
@@ -19,4 +18,5 @@ def get_day_name(day):
     else:
         print("Not a valid number!")
 #Run Function
+
 get_day_name(day = int(input("Input value: ")))
