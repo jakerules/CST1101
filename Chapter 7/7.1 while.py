@@ -1,15 +1,15 @@
-def even_sum_while(n):
+def count_odd(n):
     #print(n)
     total= 0
     y = 0
     
     while y < len(n):
-        if n[y] % 2 == 0:
+        if n[y] % 2 != 0:
             #print("I am at" , y , n[y])
             total = total + n[y]
-        print ("I am at list index" ,y," whihc has memebr" ,n[y] ,"curent total = ",total)
+        #print ("I am at list index" ,y," whihc has memebr" ,n[y] ,"curent total = ",total)
         y = y + 1
-        print("############################################")
+        #print("############################################")
     return total
 
-print(even_sum_while([3,5,6,7,10]))
+print(count_odd([3,5,6,7,10]))
