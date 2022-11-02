@@ -1,6 +1,7 @@
-list = [-3, -5, -9, 5, 78,98]
-
-def count_negitive(list):
-    for i in list:
-        sum(i for i in list if i < 0)
-print(count_negitive(list))
+def sumNegativeInts(userList):
+    sum = 0
+    for i in userList:
+        if i < 0:
+            sum += i
+    return sum
+print(sumNegativeInts([-25, 5, -24, 36, 87]))
