@@ -9,3 +9,4 @@ ban = [(list(fruit))]
 print(ban)
 
 print(ban[0][x[-2]])
+
