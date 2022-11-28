@@ -7,4 +7,5 @@ def count_let(text, let, pos=0):
     count = 0
     
     new_oc = text.find(let, pos)
-    
+    while len(text) < pos :
+        
