@@ -2,11 +2,14 @@
 #Vowels are  "!\""aeiouAEIOU". Make sure that your function is 
 #tested and work with different text examples.
 
-
-
-def rem_vowl():
+def test():
+    print("Do you want to use sample string or input a string?")
+    choice = input("1 for example, 2 for user input")
+    return choice
+def rem_vowl(choice):
     #Get inital input
-    original = input("Original text: ")
+    if choice == "1":
+        original = "Education is the foundation of all civil lib"
     #Define variables
     vowels = ('a', 'e', 'i', 'o', 'u', 'A', 'I', 'E', 'O', 'U', '!', '/')
     new = ""
