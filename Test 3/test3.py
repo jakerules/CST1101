@@ -6,10 +6,15 @@ def test():
     print("Do you want to use sample string or input a string?")
     choice = input("1 for example, 2 for user input")
     return choice
-def rem_vowl(choice):
+def rem_vowl():
     #Get inital input
     if choice == "1":
-        original = "Education is the foundation of all civil lib"
+        original = "Education is the foundation of all civil liberties"
+    elif choice == "2":
+        input("Original text: ")
+    else:
+        print("Not a valid choice")
+        exit()
     #Define variables
     vowels = ('a', 'e', 'i', 'o', 'u', 'A', 'I', 'E', 'O', 'U', '!', '/')
     new = ""
@@ -19,3 +24,6 @@ def rem_vowl(choice):
             new = new + i
     #Return text without vowels
     return new
+
+test()
+rem_vowl(choice)
