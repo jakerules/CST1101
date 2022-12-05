@@ -15,5 +15,4 @@ def rem_vowl():
     #Return text without vowels
     return new
 
-test()
-rem_vowl(choice)
+rem_vowl()
