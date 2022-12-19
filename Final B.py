@@ -1,3 +1,8 @@
+#Final CST1101
+#Write a function that counts how many 
+#times a substring occurs in a string.
+
+
 #Get values
 str = input("What is the String?")
 substr = input("What is the substring to count?")
