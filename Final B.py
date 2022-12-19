@@ -1,3 +1,4 @@
+#Get values
 str = input("What is the String?")
 substr = input("What is the substring to count?")
 
@@ -9,5 +10,5 @@ def count_substr(str, substr):
             count += 1
     return count
 
+#Run function
 count_substr(str, substr)
-
